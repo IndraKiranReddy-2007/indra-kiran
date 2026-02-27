@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="satti indra kiran reddy — Creative Developer & Designer Portfolio" />
+    <title>stti indra kiran reddy </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ── CURSOR ── -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- ── LOADER ── -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <span class="loader-text">Loading<span class="dots">...</span></span>
+            <div class="loader-bar">
+                <div class="loader-fill" id="loaderFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── NAV ── -->
+    <nav class="nav" id="nav">
+        <a href="#hero" class="nav-logo">Ik<span class="dot">.</span></a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="grid-lines"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tagline reveal-up" id="heroTagline">✦ Welcome to my world</p>
+            <h1 class="hero-name reveal-up">
+                Hi, I'm <span class="gradient-text"> satti indra kiran reddy</span>
+            </h1>
+            <div class="hero-role reveal-up">
+                <span>I build </span>
+                <span class="typewriter" id="typewriter"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+            <p class="hero-desc reveal-up">
+                A passionate <strong>Full-Stack Developer</strong> &amp; <strong>UI/UX Designer</strong> crafting
+                beautiful digital experiences that blend elegant design with powerful functionality.
+            </p>
+            <div class="hero-actions reveal-up">
+                <a href="#projects" class="btn btn-primary" id="btnWork">
+                    <span>View My Work</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </div>
+            <div class="hero-stats reveal-up">
+                <div class="stat"><span class="stat-num" data-target="0"></span><span class="stat-plus">+</span>
+                    <p>Projects Done</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num" data-target="0">0</span><span class="stat-plus">+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num" data-target="0">0</span><span class="stat-plus">+</span>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-text">Scroll</div>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">About Me</span>
+                <span class="label-line"></span>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrap reveal-left">
+                    <div class="about-img-border"></div>
+                    <div class="about-img-box">
+                        <div class="about-avatar">
+                            <div class="avatar-initials">IP</div>
+                        </div>
+                        <div class="about-badge">
+                            <span class="badge-icon">🚀</span>
+                            <div>
+                                <strong>Open to Work</strong>
+                                <p>Available for freelance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h2 class="section-title">Crafting Code<br /><span class="gradient-text">with Purpose &amp;
+                            Passion</span></h2>
+                    <p>I'm a creative developer based in India, specializing in building stunning web experiences. I
+                        love turning complex problems into simple, beautiful, and intuitive designs.</p>
+                    <p>When I'm not pushing pixels or writing code, you'll find me exploring new technologies, sketching
+                        UI concepts, or sipping chai while thinking about the next big idea.</p>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <span class="about-card-icon">🎨</span>
+                            <div>
+                                <strong>Design Focused</strong>
+                                <p>Pixel-perfect UI/UX</p>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-icon">⚡</span>
+                            <div>
+                                <strong>Performance First</strong>
+                                <p>Blazing fast experiences</p>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-icon">📱</span>
+                            <div>
+                                <strong>Fully Responsive</strong>
+                                <p>Works on all devices</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Get In Touch
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">My Skills</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-title text-center reveal-up">Tools &amp; <span class="gradient-text">Technologies</span>
+            </h2>
+            <p class="section-sub reveal-up">Technologies I work with to bring ideas to life</p>
+
+            <div class="skills-grid reveal-up">
+
+                <div class="skill-card" data-skill="HTML5">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#e44d26,#f16529)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.19-2.11H6.527l.351 4.603L12 19.988l5.118-1.114.52-5.783H8.531z" />
+                        </svg>
+                    </div>
+                    <span>HTML5</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="CSS3">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#264de4,#2965f1)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                        </svg>
+                    </div>
+                    <span>CSS3</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="JavaScript">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#f0db4f,#e8c900)">
+                        <svg viewBox="0 0 24 24" fill="#333">
+                            <path
+                                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.974 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                        </svg>
+                    </div>
+                    <span>JavaScript</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="React">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#00d2ff,#61dafb)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.167 2.167 0 0 0-1.092-.278zm-.005 1.09c.928 0 1.346 1.275.997 3.204l-.108.595-.594-.146c-1.025-.24-2.12-.406-3.264-.49l-.535-.04-.285-.468c-.578-.94-1.197-1.81-1.843-2.575.87-.65 1.72-.08 1.72-.08-.087-.498.128-.986.621-1.095.13-.03.264-.045.401-.045zm-5.44 0c.13 0 .264.015.399.047.493.11.708.597.621 1.095 0 0 .85-.57 1.72.08-.645.765-1.264 1.635-1.842 2.575l-.285.468-.535.04c-1.144.084-2.239.25-3.264.49l-.594.146-.108-.595c-.35-1.93.068-3.204.997-3.204zm-.48 9.55l.204.34c.44.73.912 1.418 1.407 2.048l.367.452-.591.09c-1.168.178-2.247.244-3.194.192-.374-1.04-.524-2.215-.437-3.448l.04-.595.595.14c.642.15 1.295.274 1.949.371l.66.41zm5.9 0l.66-.41c.654-.097 1.307-.22 1.95-.37l.593-.14.04.594c.087 1.233-.063 2.408-.438 3.448-.946.053-2.026-.013-3.194-.192l-.59-.09.367-.452c.495-.63.967-1.318 1.407-2.048l.204-.34-.001.01zm.5-3.635c.016.184.024.37.024.556 0 .184-.008.37-.024.553l-.04.594-.595-.04c-1.144-.073-2.27-.073-3.373.003l-.617.046-.04-.617a9.81 9.81 0 0 1 0-1.082l.04-.617.617.046c1.087.076 2.23.076 3.373.003l.595-.04.04.595zM9.67 5.254c-.14.178-.276.36-.41.547l.41-.547zm4.64.01l.41.537-.41-.538z" />
+                        </svg>
+                    </div>
+                    <span>React</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="Node.js">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#3c873a,#68a063)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M11.998 24c-.321 0-.641-.084-.922-.247l-2.936-1.737c-.438-.245-.224-.332-.08-.383.585-.203.703-.25 1.328-.605.065-.037.151-.023.218.017l2.256 1.339c.082.045.198.045.272 0l8.795-5.076c.082-.047.134-.141.134-.238V6.921c0-.099-.053-.19-.137-.242l-8.791-5.072c-.081-.047-.189-.047-.271 0L3.075 6.68c-.084.051-.139.145-.139.243v10.148c0 .097.055.189.137.236l2.409 1.392c1.307.654 2.108-.116 2.108-.891V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.111.255.253v10.021c0 1.745-.95 2.745-2.604 2.745-.508 0-.909 0-2.026-.551L2.28 18.675c-.57-.329-.922-.943-.922-1.604V6.921c0-.659.352-1.275.922-1.603l8.795-5.082c.557-.315 1.296-.315 1.848 0l8.794 5.082c.57.329.922.944.922 1.603v10.15c0 .659-.352 1.272-.922 1.604l-8.794 5.076c-.28.163-.6.247-.925.247zm2.718-6.993c-3.847 0-4.651-1.766-4.651-3.247 0-.142.114-.253.256-.253h1.139c.127 0 .232.091.252.216.172 1.161.685 1.747 3.007 1.747 1.851 0 2.64-.419 2.640-1.4 0-.566-.223-.985-3.097-1.267-2.403-.238-3.887-.767-3.887-2.689 0-1.771 1.492-2.826 3.993-2.826 2.811 0 4.201 1.148 4.379 2.917.009.078-.018.155-.075.209a.261.261 0 0 1-.213.084h-1.143a.255.255 0 0 1-.244-.189c-.274-1.154-.94-1.524-2.704-1.524-1.993 0-2.225.694-2.225 1.215 0 .631.274.815 3.002 1.17 2.699.352 3.977.85 3.977 2.763-.003 1.911-1.595 3.074-4.405 3.074z" />
+                        </svg>
+                    </div>
+                    <span>Node.js</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="70"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="Python">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#3776ab,#ffd343)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.13-.13.16-.21.19-.34.2-.46.2H8.17l-.35.03-.48.07-.31.12-.21.14-.15.19-.09.23-.03.25.01.37.09.37.2.32.29.26.4.2h5.1l.1.06.1.08.07.11.04.15v4.4l-.02.2-.08.18-.13.17-.17.14-.22.1-.25.07-.28.04-.31.01h-5.8l-.13.02-.2.04-.17.07-.12.11-.09.14-.05.17-.02.2.01.22.05.22.1.2.16.17.22.13.28.09.35.05h5.1l.27-.01.22-.04.17-.09.12-.14.08-.19.04-.25V18.3l-.01-.2-.05-.19-.1-.16-.16-.13-.22-.09-.27-.05h-2.2l-.1-.06-.1-.08-.07-.11-.04-.15v-.4l.04-.15.07-.11.1-.08.1-.06h2.2l.27-.05.22-.09.16-.13.1-.16.05-.19.02-.2-.01-7.5-.04-.25-.08-.19-.12-.14-.17-.1-.22-.04-.27-.01H9.87l-.13.02-.2.04-.17.07-.12.11-.09.14-.05.17-.02.2.01.22.05.22.1.2.16.17.22.13.28.09.35.05h4.94l-.01.07v.07l.12.13.1.17.06.19.02.23v1.5l-.02.23-.06.19-.1.17-.12.13-.14.1-.15.06-.17.03-.19.01h-5.1l-.25.03-.28.07-.28.12-.26.17-.22.21-.18.25-.12.28-.07.31-.02.34.02.31.07.27.12.23.17.18.21.13.26.08.31.01h4.9l.27-.02.22-.06.17-.1.12-.14.08-.2.04-.24v-.4l-.02-.22-.06-.18-.1-.15-.14-.12h-2.5l-.04-.15.04-.15.07-.11.1-.08.1-.06h2.5l.22-.05.17-.1.14-.14.1-.17.05-.22.02-.25v-5.5l-.02-.2-.06-.16-.1-.14-.14-.1-.2-.07-.25-.03H9.87l-.35.03-.28.07-.22.12-.16.18-.1.22-.04.27V3.4l.02.21.07.18.11.14.16.1.21.06.26.02h4.31z" />
+                        </svg>
+                    </div>
+                    <span>Python</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="72"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="Figma">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#f24e1e,#a259ff)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49 4.49 2.014 4.49 4.49-2.014 4.49-4.392 4.49zm-.097-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019 3.019-1.355 3.019-3.019-1.355-3.019-3.019-3.019z" />
+                        </svg>
+                    </div>
+                    <span>Figma</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="78"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="MongoDB">
+                    <div class="skill-icon" style="background:linear-gradient(135deg,#4db33d,#23a455)">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0 1 11.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 0 0 3.639-8.464c.01-.814-.154-1.595-.197-1.218z" />
+                        </svg>
+                    </div>
+                    <span>MongoDB</span>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" data-w="68"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">My Work</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-title text-center reveal-up">Featured <span class="gradient-text">Projects</span></h2>
+            <p class="section-sub reveal-up">Hand-picked projects I'm proud of</p>
+
+            <div class="projects-grid">
+
+                <div class="project-card reveal-up" id="proj1">
+                    <div class="project-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                        <div class="project-img-inner">
+                            <div class="proj-icon">🛍️</div>
+                            <div class="proj-glow"></div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link" title="View Live">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                            </a>
+                            <a href="#" class="proj-link" title="View Code">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online store with cart, checkout, payment integration, and real-time
+                            inventory management.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" id="proj2">
+                    <div class="project-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+                        <div class="project-img-inner">
+                            <div class="proj-icon">📊</div>
+                            <div class="proj-glow"></div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link" title="View Live">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                            </a>
+                            <a href="#" class="proj-link" title="View Code">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data analytics dashboard with dynamic charts, KPI widgets, and exportable reports.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" id="proj3">
+                    <div class="project-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+                        <div class="project-img-inner">
+                            <div class="proj-icon">💬</div>
+                            <div class="proj-glow"></div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link" title="View Live">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                            </a>
+                            <a href="#" class="proj-link" title="View Code">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                        <h3>Real-Time Chat App</h3>
+                        <p>Blazing-fast messaging app with rooms, online indicators, file sharing, and emoji reactions.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Contact</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-title text-center reveal-up">Let's <span class="gradient-text">Work Together</span></h2>
+            <p class="section-sub reveal-up">Have a project in mind? I'd love to hear about it.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:indrakiranreddysatti@gmail.com">indrakiranreddysatti@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Location</strong>
+                            <span>India 🇮🇳</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-btn" id="socialGithub" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn" id="socialLinkedin" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn" id="socialTwitter" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal-right" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nameInput">Name</label>
+                            <input type="text" id="nameInput" placeholder="INDRA KIRAN" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email</label>
+                            <input type="email" id="emailInput" placeholder="indrakiranreddysattigmail.com" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subjectInput">Subject</label>
+                        <input type="text" id="subjectInput" placeholder="Project inquiry..." required />
+                    </div>
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea id="messageInput" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        <span id="submitText">Send Message</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <span>✅</span> Message sent! I'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p class="footer-logo">IP<span class="dot">.</span></p>
+            <p class="footer-copy">© 2026 satti indra kiran reddy </p>
+            <a href="#hero" class="back-to-top" id="backTop" aria-label="Back to top">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="18 15 12 9 6 15" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
